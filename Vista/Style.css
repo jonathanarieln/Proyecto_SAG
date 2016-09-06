@@ -1,0 +1,88 @@
+#caja{
+		background: #f0f0f2;
+		text-align: center;
+		width: 300px;
+		height: 300px;
+		border: 1px solid white;
+		border-radius: 10px;
+		box-shadow: inset 0 0 10px #000
+
+
+
+
+}
+.contenedor{
+	margin: 0 115%;
+	margin-top: 50px;
+	width: 50%;
+	position: relative;
+
+}
+#procacao{
+	width: 10%;
+	margin-top: 5px;
+	margin: 0 72%;
+	float: left;
+	position: absolute;
+}
+#imgprocacao{
+	width: 240px;
+}
+
+#simpah{
+	position: absolute;
+	margin: 0 40%;
+	margin-top: 7px;
+	
+}
+#imgsimpah{
+	width: 240px;
+}
+
+#fhia{
+	margin: -53% -160%;
+	position:absolute;
+
+	
+}
+#imgfhia{
+	width: 180px;
+}
+
+body{
+		background-image: url("fondo.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 720px;
+		display: flex;
+
+}
+input[type=text],[type=password]{
+	margin: 0 0 1em 0;
+	width: 200px;
+	border: 0px;
+	padding: 1em;
+	border-radius: 0px 10px 0px 10px;
+
+	
+}
+input[type=submit]{
+	padding: 1em;
+	background: #559123;
+	border: none;
+	color: white;
+	font-family: arial black;
+	border-radius: 3px;
+	font-size: 14px;
+	width: 200px;
+
+}
+
+input[type=submit]:hover{
+	background: #326E00;
+	cursor: pointer;
+}
+h1,h2,h3,h4{
+	font-family: arial;
+	color: #559123;
+
+}
