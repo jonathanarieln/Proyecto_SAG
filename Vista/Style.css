@@ -9,54 +9,36 @@
 
 
 
+}
+.container{
+	border-top: 100px;
+	clear: both;
+	margin: 0 auto;
 
-}
-.contenedor{
-	margin: 0 115%;
-	margin-top: 50px;
-	width: 50%;
-	position: relative;
-
-}
-#procacao{
-	width: 10%;
-	margin-top: 5px;
-	margin: 0 72%;
-	float: left;
-	position: absolute;
-}
-#imgprocacao{
-	width: 240px;
-}
-
-#simpah{
-	position: absolute;
-	margin: 0 40%;
-	margin-top: 7px;
-	
-}
-#imgsimpah{
-	width: 240px;
-}
-
-#fhia{
-	margin: -53% -160%;
-	position:absolute;
 
 	
 }
-#imgfhia{
-	width: 180px;
+#logos{
+	margin: 0 auto;
+	margin-left: 6%;
+}
+#icono{
+	width: 30px;
+	
+}
+header{
+	clear: right;
 }
 
 body{
 		background-image: url("fondo.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 720px;
-		display: flex;
+
+
 
 }
-input[type=text],[type=password]{
+#inputext{
 	margin: 0 0 1em 0;
 	width: 200px;
 	border: 0px;
@@ -65,7 +47,7 @@ input[type=text],[type=password]{
 
 	
 }
-input[type=submit]{
+#botonlogin{
 	padding: 1em;
 	background: #559123;
 	border: none;
@@ -81,8 +63,11 @@ input[type=submit]:hover{
 	background: #326E00;
 	cursor: pointer;
 }
-h1,h2,h3,h4{
+h1,h2,h4{
 	font-family: arial;
 	color: #559123;
 
+}
+h3{
+	color:#fff;
 }
